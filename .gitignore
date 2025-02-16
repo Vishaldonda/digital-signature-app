@@ -128,3 +128,29 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Keycloak-related files
+keycloak/data/
+keycloak/log/
+keycloak/tmp/
+keycloak/standalone/
+keycloak/import/
+
+# Keycloak environment files
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Secrets & credentials
+*.jks  # Java Keystore files
+*.pfx  # PKCS#12 certificate files
+*.pem  # Private/Public key certificates
+*.crt  # SSL certificates
+*.key  # Private key files
+
+# Node & Python (if applicable)
+node_modules/
+venv/
